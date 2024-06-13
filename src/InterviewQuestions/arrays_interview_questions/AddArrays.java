@@ -11,7 +11,7 @@ public class AddArrays {
         //loop through each element in the array
         for (int i = 0; i < arr.length; i++) {
             //loop through each element after the current element
-            for (int j = 0; j < arr.length; j++) {
+            for (int j = i+1; j < arr.length; j++) {
                 //check if the current element and next element equals the target sum
                 if(arr[i]+arr[j]==sumNumbers){
                     //print the pair of numbers that add up to the sum
